@@ -1,0 +1,14 @@
+<hmtl>
+<head>
+</head>
+<body>
+                <div class="input-box">
+                    
+                    <label for="avatar"><b>Upload a photo:</b></label>
+                    <input type="file"
+                                id="avatar" name="image"
+                          accept="image/png, image/jpeg">
+
+                </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+
+body{
+    margin:0;
+    font-family:system-ui;
+}
+.parallax{
+    background-image: url('background3.jpg');
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-title{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 70px;
+    font-family: fantasy;
+    letter-spacing: 10px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu{
+    background: #184d47;
+    text-align: center;
+}
+.menu-ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.menu-ul li{
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    padding: 50px 50px 50px 50px;
+    color: white;
+    
+}
+.a-menu{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    bottom: 5px;
+
+}
+.menu-ul li:hover{
+    transform:scale(1.1);
+
+}
+.menu-ul li img{
+    max-width: 50px;
+    margin-right: 20px;
+    transition: 0.5s;
+    color: white;
+    border-radius: 50px;
+}
+
+
+.search-box{
+
+    border: 1px solid white;
+    border-radius: 50px;
+    background: white;
+    width: max-content;
+    display: inline-block;
+    margin: 8px;
+}
+.search-box:hover{
+    box-shadow: 0 0 10px 2px #5b8c5a;
+    border:1px solid #5b8c5a;
+}  
+.search-input{
+    width: 100px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    background: transparent;
+    margin: 5px 0 0 5px;
+}
+i{
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+button{
+    background: transparent;
+    border:none;
+    outline: none;
+}
+img:hover{
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
